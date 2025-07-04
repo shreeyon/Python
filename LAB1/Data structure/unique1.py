@@ -5,5 +5,5 @@ for i in range(0,a):
     item=input("Enter the item {i+1}")
     l.append(item)
 print(l)
-unique=set(l)
+unique=list(set(l))
 print(unique)
