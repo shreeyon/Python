@@ -2,7 +2,7 @@
 a=int(input("Enter how many numbers of item do you want to add in list"))
 l=[]
 for i in range(0,a):
-    item=input("Enter the item {i+1}")
+    item=input(f"Enter the item {i+1}")
     l.append(item)
 print(l)
 unique=set(l)

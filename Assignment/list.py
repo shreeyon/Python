@@ -1,0 +1,16 @@
+#list
+my_list = [1, 2, 3, 4, 2]
+my_list.append(5)
+print(my_list)
+my_list.insert(2, 10)
+print(my_list)
+my_list.remove(2)
+print(my_list)
+my_list.pop()
+print(my_list)
+print(my_list.index(10))
+print(my_list.count(2))
+my_list.reverse()
+print(my_list)
+my_list.sort()
+print(my_list)
